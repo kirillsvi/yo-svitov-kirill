@@ -1,2 +1,3 @@
 # yo-svitov-kirill
-Учебный репозиторий студента Свитова Кирилла 1 модуль
+Студент (Кирилл Свитов) https://t.me/ramblingsofadyingadolescence
+Наставник (Ян Олимов) https://t.me/OlimvJan
