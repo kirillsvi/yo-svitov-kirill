@@ -1,0 +1,238 @@
+.category__products > h1 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 49px;
+    text-transform: uppercase;
+    color: #1E0606;
+    margin-top: 60px;
+    margin-bottom: 15px;
+}
+
+.breadcrumps {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 50px;
+}
+
+.breadcrumps__item-home {
+    font-family: 'Crimson Text';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: #1E0606;
+    
+}
+
+.breadcrumps__item-catalog {
+    font-family: 'Crimson Text';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: #1E0606;
+    opacity: 0.5;
+}
+
+.breadcrumps__item-home:last-child:after {
+    content: '';
+    display: inline-block;
+    background-image: url(../images/arrow__right.svg);
+    background-repeat: no-repeat;
+    width: 8px;
+    height: 12px;
+    margin-left: 20px;
+}
+
+/* all products */
+
+.all__products {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    margin: 0 -10px;
+    
+}
+
+.all__products a {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 32px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-shadow: 0px 0px 40px rgba(147, 3, 3, 0.25);
+}
+
+
+/* first */
+
+.all__products-item1 {
+    background:  #DBE4DB;
+    margin-right: 20px;
+    margin-bottom: 23px;
+    align-items: center;
+    
+}
+
+.all__products-item1 a {
+    margin-left: 76px;
+    margin-top: -173px;
+    display: flex;
+    align-items: center;
+}
+
+.all__products-item1:hover {
+    text-decoration: underline;
+}
+
+/* second */
+
+.all__products-item2 {
+    background:   #EADDD3;
+    margin-right: 20px;
+    align-items: center;
+    margin-bottom: 127px;
+}
+
+.all__products-item2 a {
+    margin-left: 76px;
+    margin-top: -173px;
+    display: flex;
+    align-items: center;
+}
+
+.all__products-item2:hover {
+    text-decoration: underline;
+}
+
+
+/* third */
+
+.all__products-item3 {
+    background:   #F8F2DA;
+    margin-right: 300px;
+    margin-bottom: 127px;
+    align-items: center;
+}
+
+.all__products-item3 a {
+    margin-left: 100px;
+    margin-top: -157px;
+    display: flex;
+    align-items: center;
+}
+
+.all__products-item3:hover {
+    text-decoration: underline;
+}
+
+/* fourth */
+
+.all__products-item4 {
+    background:  #D5D4E1;;
+    margin-right: 20px;
+    margin-bottom: 127px;
+    margin-left: 200px;
+    align-items: center;
+}
+
+.all__products-item4 a {
+    margin-left: 44px;
+    margin-top: -157px;
+    display: flex;
+    align-items: center;
+}
+
+.all__products-item4:hover {
+    text-decoration: underline;
+}
+
+/* fifth */
+
+.all__products-item5 {
+    background:  #D5D4E1;;
+    margin-right: 20px;
+    margin-bottom: 127px;
+    align-items: center;
+}
+
+.all__products-item5 a {
+    margin-left: 105px;
+    margin-top: -157px;
+    display: flex;
+    align-items: center;
+}
+
+.all__products-item5:hover {
+    text-decoration: underline;
+}
+
+/* sixth */
+
+.all__products-item6 {
+    background:  #D5D4E1;;
+    margin-right: 20px;
+    margin-bottom: 127px;
+    align-items: center;
+}
+
+.all__products-item6 a {
+    margin-left: 70px;
+    margin-top: -173px;
+    display: flex;
+    align-items: center;
+}
+
+.all__products-item6:hover {
+    text-decoration: underline;
+}
+
+/* product description */
+
+.product__description > h4 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 46px;
+    text-transform: uppercase;
+    color: #1E0606;
+    margin-left: 190px;
+    margin-bottom: 25px;
+    margin-bottom: 25px;
+}
+
+.product__description {
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+.product__description > p {
+    margin-left: 190px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.product__description__firstp{
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+.product__description__secondp {
+    margin-top: 0;
+}
+
+.product__description__thirdp {
+    margin-top: 0;
+    margin-bottom: 55px;
+}
