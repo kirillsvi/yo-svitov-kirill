@@ -1,0 +1,485 @@
+
+/* стилизация главного меню */
+
+.banner_wrap {
+    display: flex;
+}
+
+.handle {
+    display: flex;
+    flex-direction: column;
+    margin-right: 71px;
+    margin-top: 10px;
+}
+
+.handle_item {
+    width: 30px;
+    height: 3px;
+    background: rgba(30, 6, 6, 0.6);
+    margin-bottom: 11px;
+    margin-left: 31px;
+}
+
+.handle_item-another {
+    width: 30px;
+    height: 3px;
+    background: #D6CAC2;
+    margin-bottom: 11px;
+    margin-left: 31px;
+}
+
+.handle_item-another:hover {
+    background: rgba(30, 6, 6, 0.6);
+}
+
+.banner {
+    background: #EEE4DB;
+    margin-top: 129px;
+}
+.title {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 110%;
+    margin-top: 89px;
+    margin-bottom: 20px;
+    margin-right: 5px;
+}
+
+.sub_title {
+    font-family: 'Crimson Text';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    margin-bottom: 20px;
+}
+
+.explore_now {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFFFFF;
+    margin-bottom: 98px;
+    width: 161px;
+}
+
+.banner_wr > span {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 60px;
+    line-height: 73px;
+    color: rgba(30, 6, 6, 0.05);
+    margin-left: 28px;
+    margin-top: 17px;
+}
+
+.monstr {
+    margin-top: -500px;
+    margin-left: 320px;
+    margin-bottom: -5px;
+}
+
+.sub_banner {
+    background: #C29974;
+    
+}
+
+.sub_banner_wrap{
+    display: flex;
+    align-items: center;
+    max-width: 452px;
+    margin: 0 auto;
+}
+
+.sub_banner_wrap > span {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 16px;
+    color: #FFFFFF;
+    margin-top: 11px;
+    margin-bottom: 11px;
+}
+
+/* стилизация листа с товарами*/
+
+.product_list {
+    display: flex;
+    margin: 0 -10px;
+    text-align: center;
+}
+
+
+
+.products_title {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 46px;
+    margin-top: 90px;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+
+/* первый  */
+
+.product_list-item1 {
+    background:  #DBE4DB;
+    margin-right: 20px;
+    align-items: center;
+}
+
+
+
+.product_list-item1 a {
+    position: absolute;
+    margin-top: -173px;
+    margin-left: 75px;
+    margin-right: 63px;
+    display: flex;
+    align-items: center;
+}
+
+.product_list-item1:hover {
+    text-decoration: underline;
+}
+
+.product_list a {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 32px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-shadow: 0px 0px 40px rgba(147, 3, 3, 0.25);
+}
+
+/* второй */
+
+
+.product_list-item2 {
+    background:  #EADDD3;
+    margin-right: 20px;
+    align-items: center;
+}
+
+.product_list-item2 a {
+    margin-top: -173px;
+    margin-left: 75px;
+    margin-right: 63px;
+    display: flex;
+    align-items: center;
+}
+
+.product_list-item2:hover {
+    text-decoration: underline;
+}
+
+/* третий */
+
+
+
+.product_list-item3 {
+    background:  #F8F2DA;
+    margin-right: 20px;
+    align-items: center;
+}
+
+.product_list-item3 a {
+    margin-top: -160px;
+    margin-left: 99px;
+    margin-right: 105px;
+    display: flex;
+    align-items: center;
+}
+
+.product_list-item3:hover {
+    text-decoration: underline;
+}
+
+
+/* четвертый */
+
+
+.product_list-item4 {
+    background:  #D5D4E1;
+    margin-right: 20px;
+    align-items: center;
+}
+
+.product_list-item4 a {
+    margin-top: -155px;
+    margin-left: 44px;
+    margin-right: 44px;
+    display: flex;
+    align-items: center;
+}
+
+.product_list-item4:hover {
+    text-decoration: underline;
+}
+
+/* подтекст */
+
+.ps_inf {
+    display: flex;
+
+}
+
+.product_subtitle {
+    display: flex;
+    align-items: center;
+    margin: 0 -10px;
+    justify-content: space-between;
+    
+    
+    
+}
+
+/* btn-left*/
+
+.vector-left-btn {
+    border: 0;
+    background: rgba(112, 187, 220, 0.2);
+    padding: 5px 12px 6px 12px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 33px;
+    margin-bottom: 94px;
+    margin-right: 6px;
+    text-align: center;
+    cursor: pointer;
+}
+
+/* btn-right */
+
+.vector-right-btn {
+    border: 0;
+    background: rgba(112, 187, 220, 0.2);
+    padding: 5px 12px 6px 12px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 33px;
+    margin-right: 20px;
+    margin-bottom: 90px;
+    cursor: pointer;
+}
+
+/* просто текст в подтексте */
+
+.modern_finds {
+    max-width: 580px;
+    display: flex;
+}
+
+.modern_finds > span {
+    margin-top: 30px;
+    margin-bottom: 90px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #1E0606;
+}
+
+/* секция с информацией */
+
+.more_inf-bout {
+    margin: 0 -10px;
+    display: flex;
+}
+
+.bout-text {
+    flex-direction: column;
+    
+}
+
+.first-el-bout > h2 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 46px;
+    text-transform: uppercase;
+    color: #1E0606;
+    margin-left: 121px;
+    margin-bottom: 6px;
+}
+
+.second-el-bout > h3 {
+    font-family: 'Crimson Text';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 34px;
+    color: #1E0606;
+    margin-left: 113px;
+    margin-top: 11px;
+    margin-bottom: 11px;
+    background: rgba(112, 187, 220, 0.2);/* Цвет фона */
+    box-shadow: -60px 0px  rgba(112, 187, 220, 0.2);
+    padding: 10px;
+    width: 262.5px;
+}
+
+.third-el-bout > h3 {
+    font-family: 'Crimson Text';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 34px;
+    color: #1E0606;
+    margin-left: 120px;
+    margin-top: 11px;
+    margin-bottom: 22px;
+
+}
+
+.fourth-el-bout > h3 {
+    font-family: 'Crimson Text';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 34px;
+    color: #1E0606;
+    margin-left: 120px;
+    margin-bottom: 30px;
+}
+
+.first-par > p {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #1E0606;
+    margin-left: 120px;
+    margin-bottom: 15px;
+}
+
+.second-par > p {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    margin-left: 120px;
+    margin-bottom: 26px;
+    color: #1E0606;
+}
+
+.learn_more {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFFFFF;
+    margin-left: 120px;
+    width: 149px;
+}
+
+/* логотипы */
+.logos {
+    margin-top: 91px;
+    display: flex;
+    align-items: center;
+}
+
+.logos > li {
+    margin-right: 127px;
+}
+
+/* почти футер */
+
+.designl {
+    padding-bottom: 155px;
+}
+
+.designl-items{
+    margin-top: 100px;
+    
+}
+
+.designl-items {
+    padding: 30px;
+    background: #E1F0F7;
+}
+
+.designl-items2 {
+    margin-top: 100px;
+}
+
+.designl-items2 > li > iframe {
+    position: absolute;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    top: 250px;
+}
+
+.dl-item1 > h2 {
+    position: absolute;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 46px;
+    text-transform: uppercase;
+    color: #1E0606;
+    top: 75px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+.dl-item2 > h3 {
+    font-family: 'Crimson Text';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 34px;
+    color: #1E0606;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+.dl-item3 > p {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #1E0606;
+}
+
+.buy_now {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFFFFF;
+    margin-top: 20px;
+    padding: 9px 22px;
+}
+
+.groups {
+    display: flex;
+    justify-content: space-between;
+}
+
+.designl-items2  {
+    padding: 40px 30px 80px 30px;
+    background: #E1F0F7;
+}
