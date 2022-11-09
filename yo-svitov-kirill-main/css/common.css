@@ -10,6 +10,7 @@ a {
 .container {
     max-width: 1180px;
     margin: 0 auto;
+    position: relative;
 }
 
 ul {
@@ -186,6 +187,8 @@ footer {
   
   .first-column {
     margin-right: 20px;
+    display: flex;
+    flex-direction: column;
   }
   
   .second-column {
@@ -193,8 +196,7 @@ footer {
   }
   
   .btn {
-    width: 81px;
-    height: 42px;
+    
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -267,6 +269,15 @@ footer {
     color: #FFFFFF;
   }
   
+  .list-unstyled1 > li > a:hover {
+    opacity: 0.5;
+  }
+
+  .list-unstyled1 > li > a:active {
+    opacity: 0.2;
+  }
+  
+  
   /* первая колонка */
   
   /* вторая колонка */
@@ -316,6 +327,15 @@ footer {
     color: #FFFFFF;
   }
   
+  .list-unstyled2 > li > a:hover {
+    opacity: 0.5;
+  }
+
+  .list-unstyled2 > li > a:active {
+    opacity: 0.2;
+  }
+  
+  
   /* вторая колонка */
   
   /* тертья колонка */
@@ -348,6 +368,14 @@ footer {
     display: flex;
   }
   
+  .list-unstyled3 > li > a:hover {
+    opacity: 0.5;
+  }
+
+  .list-unstyled3 > li > a:active {
+    opacity: 0.2;
+  }
+
   /*  */
   
   .footer-of-footer > hr {
@@ -402,7 +430,7 @@ footer {
     margin-top: 23px;
 }
   
-.web-design {
+.web-design > a {
     
     font-family: 'Open Sans';
     font-style: normal;
@@ -411,6 +439,16 @@ footer {
     line-height: 22px;
     color: #A2A2A2;
     margin-top: 23px;
+}
+
+.web-design > a:hover {
+    text-decoration-line: underline;
+    color: #FFFFFF;
+}
+
+.web-design > a:active {
+    text-decoration-line: underline;
+    color: #FFFFFF;
 }
 
 .last-btn {
@@ -441,4 +479,13 @@ footer {
 
 .form-control {
     text-indent: 15px;
+    
+}
+
+.form-control:hover {
+    border: 1px solid #FFFDFD;
+}
+
+.form-control:active {
+    border: 1px solid #FFFDFD;
 }
