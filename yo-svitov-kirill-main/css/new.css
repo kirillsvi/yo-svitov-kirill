@@ -1,0 +1,255 @@
+
+ul {
+  margin: 0;
+  padding: 0;  
+}
+
+li {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #333333;
+}
+
+
+footer {
+  background-color: #434343;
+}
+
+.container {
+  max-width: 1180px;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.first-column {
+  margin-right: 20px;
+}
+
+.second-column {
+  margin-right: 20px ;
+}
+
+.btn {
+  width: 81px;
+  height: 42px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 9px 22px;
+  gap: 10px;
+ 
+}
+
+.form-control {
+  width: 299px;
+  height: 40px;
+  background: #666666;
+  border: none;
+}
+
+.email-item {
+  display: flex;
+  margin-bottom: 25px;
+}
+
+/* первая колонка */
+
+.first-column > h4 {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #AAAAAA;
+  margin-top: 100px;
+}
+
+.first-column > hr {
+    border: none; /* Убираем границу */
+    background-color: #666666; /* Цвет линии */
+    color: #666666; /* Цвет линии для IE6-7 */
+    height: 1px; /* Толщина линии */
+    width: 380px;
+    margin: 23px 0 28px 0;
+}
+
+.itemlist1> a {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #FFFFFF;
+}
+
+.itemlist1 {
+  margin-bottom: 15px;
+}
+
+.last1 {
+  margin-bottom: 28px;
+}
+
+.last1 > a {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #FFFFFF;
+}
+
+/* первая колонка */
+
+/* вторая колонка */
+
+.second-column > h4 {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #AAAAAA;
+  margin-top: 100px;
+}
+
+.second-column > hr {
+  border: none; /* Убираем границу */
+  background-color: #666666; /* Цвет линии */
+  color: #666666; /* Цвет линии для IE6-7 */
+  height: 1px; /* Толщина линии */
+  width: 380px;
+  margin: 23px 0 28px 0;
+}
+
+.itemlist2 > a {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #FFFFFF;
+}
+
+.itemlist2 {
+  margin-bottom: 15px;
+}
+
+.last2 {
+  margin-bottom: 28px;
+}
+
+.last2 > a {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #FFFFFF;
+}
+
+/* вторая колонка */
+
+/* тертья колонка */
+
+.third-column > h4 {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #AAAAAA;
+  margin-top: 100px;
+}
+
+.third-column > hr {
+  border: none; /* Убираем границу */
+  background-color: #666666; /* Цвет линии */
+  color: #666666; /* Цвет линии для IE6-7 */
+  height: 1px; /* Толщина линии */
+  width: 380px;
+  margin: 23px 0 25px 0;
+}
+
+.socialmediia {
+  margin-right: 10px;
+  
+}
+
+.list-unstyled3 {
+  display: flex;
+}
+
+/*  */
+
+.footer-of-footer > hr {
+  border: none; /* Убираем границу */
+  background-color: #666666; /* Цвет линии */
+  color: #666666; /* Цвет линии для IE6-7 */
+  height: 1px; /* Толщина линии */
+  width: 1180px;
+  margin-bottom: 23px;
+}
+
+.footer-of-footer {
+  display: flex;
+  flex-wrap: wrap;
+ 
+}
+
+.marker {
+  display: flex;
+  
+  margin-bottom: 100px;
+}
+
+.marker > li > a {
+  margin-right: 25px;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #FFFFFF;
+}
+
+.title-marker {
+  margin-top: 23px;
+}
+
+.marker > li > img {
+  margin-top: 28px;
+  margin-right: 2.88px;
+}
+
+.copyright {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #FFFFFF;
+  margin-left: 170px;
+  margin-right: 109px;
+  margin-top: 23px;
+}
+
+.web-design {
+  
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #A2A2A2;
+  margin-top: 23px;
+}
